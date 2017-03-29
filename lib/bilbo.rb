@@ -3,7 +3,7 @@ require "bilbo/capture"
 require "pcaprub"
 
 
-# Bilbo is a Bilbo is a simple, +hobbit-like+ ( small ) network packet +burglaring+ ( capturing ) library. 
+# Bilbo is a simple, +hobbit-like+ ( small ) network packet +burglaring+ ( capturing ) library. 
 # # @author Kent 'picat' Gruber
 module Bilbo
   
