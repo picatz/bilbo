@@ -1,7 +1,6 @@
 # Bilbo
 
-Bilbo is a tiny packet capture library built on [pcaprub](https://github.com/pcaprub/pcaprub) for an interface to libpcap. 
-
+Bilbo is a tiny packet capture library built on [pcaprub](https://github.com/pcaprub/pcaprub) to interface with libpcap. 
 
 ![Bilbo Baggins](https://upload.wikimedia.org/wikipedia/en/1/1f/Bilbo_Baggins_Tolkien_illustration.jpg)
 
