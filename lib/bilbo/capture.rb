@@ -25,6 +25,12 @@ module Bilbo
 
     # Create a new Bilbo capture instance.
     #
+    # @param [Hash] args options when created 
+    # @option args [String] :iface interface to capture on
+    # @option args [Integer] :snaplen ammount of data for each frame that is actually captured
+    # @option args [Boolean] :promisc whether to capture in promiscuous mode or not 
+    # @option args [Integer] :timeout ammount for timeout on capture
+    #
     # == Simple Defaults
     # You can let bilbo take care of things for you with its defaults:
     #  cap = Bilbo::Capture.new(start: true)
@@ -49,10 +55,10 @@ module Bilbo
 
     # Start the actual packet capturing.
     # @param [Hash] args capture options when started
-    # @option options [String] :iface interface to capture on
-    # @option options [Integer] :snaplen ammount of data for each frame that is actually captured
-    # @option options [Boolean] :promisc whether to capture in promiscuous mode or not 
-    # @option options [Integer] :timeout ammount for timeout on capture
+    # @option args [String] :iface interface to capture on
+    # @option args [Integer] :snaplen ammount of data for each frame that is actually captured
+    # @option args [Boolean] :promisc whether to capture in promiscuous mode or not 
+    # @option args [Integer] :timeout ammount for timeout on capture
     # @return [PCAPRUB::Pcap]
     #
     # == Example
