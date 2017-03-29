@@ -112,9 +112,26 @@ cap.started?
 cap.capturing?
 # => false
 ```
+* Human friendly alias features?
+```ruby
+require 'bilbo'
+
+cap = Bilbo::Capture.new
+
+cap.promisc = true
+# or 
+cap.promiscuous = true
+# or 
+cap.promiscuous!
+# and
+cap.promiscuous?
+
+# stuff like that
+```
 * Check internal documentation and inline documentation for ma' errorz.
 * More packet wrangle'n features for the `.packets()` method?
 * Some sort of PacketFu/PacketGen shell like functionality.
+* Specs? Because that'd be nice.
 * Write some sort of ngrep like clone using Bilbo.
 
 ### ❤️  Ruby Community
