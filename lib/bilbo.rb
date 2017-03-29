@@ -21,7 +21,7 @@ module Bilbo
   # Get a random quote from Bilbo.
   #
   # @return [String]
-  def quote
+  def self.quote
     QUOTES.sample
   end
 
