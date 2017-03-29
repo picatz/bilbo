@@ -79,7 +79,7 @@ Since Bilbo is simply capturing packets, you can easily use [PacketFu](https://g
 
 ```ruby
 require 'bilbo'
-require 'packetgen'
+require 'packetfu'
 
 cap = Bilbo::Capture.new
 
